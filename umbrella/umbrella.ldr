@@ -7,7 +7,7 @@
 0 NumOfBricks:  24
 0 STEP
 0 STEP
-1 16 0 -121.436 -150 1 0 0 0 1 0 0 0 1 jiaojiezuo
+1 16 0 -121.436 -150 1 0 0 0 1 0 0 0 1 lower-nest.ldr
 0 STEP
 1 7 19.999640 -151.436400 -159.999500 -0.000001 0.000000 -1.000000 -0.000001 1.000000 0.000000 0.999999 0.000000 -0.000001 3673.dat
 0 STEP
@@ -17,7 +17,7 @@
 0 STEP
 0 STEP
 0 STEP
-1 16 0.000000 0.000020 -150.000400 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.000000 zhongban
+1 16 0 0 -150 1 0 0 0 1 0 0 0 1 shaft.ldr
 0 STEP
 0 STEP
 0 STEP
@@ -29,9 +29,9 @@
 1 16 15 -290 -170 0 0 1 0 1 0 -1 0 0 ribs.ldr
 1 16 20 -290 -135 1 0 0 0 1 0 0 0 1 ribs.ldr
 0 NOFILE
-0 FILE jiaojiezuo
-0 jiaojiezuo
-0 Name:  jiaojiezuo
+0 FILE lower-nest.ldr
+0 lower-nest
+0 Name: lower-nest
 0 Author:  
 0 CustomBrick
 0 NumOfBricks:  7
@@ -47,9 +47,9 @@
 1 7 19.999980 -30.000120 -20.000020 0.000000 0.000001 1.000000 1.000000 -0.000001 0.000000 0.000000 0.999999 -0.000001 22961.dat
 0 STEP
 0 NOFILE
-0 FILE yaogan
-0 yaogan
-0 Name:  yaogan
+0 FILE stretcher.ldr
+0 stretcher
+0 Name: stretcher
 0 Author:  
 0 CustomBrick
 0 NumOfBricks:  6
@@ -60,9 +60,9 @@
 1 7 0 -140 0 0 1 0 -1 0 0 0 0 1 32073.dat
 1 0 0 -200 0 0 -1 0 0 0 -1 1 0 0 32013.dat
 0 NOFILE
-0 FILE liangan
-0 liangan
-0 Name:  liangan
+0 FILE linkage-rib.ldr
+0 linkage-rib
+0 Name: linkage-rib
 0 Author:  
 0 CustomBrick
 0 NumOfBricks:  2
@@ -70,9 +70,9 @@
 1 19 0 0 -4.5 0 0 -1 0 1 0 1 0 0 32002.dat
 1 19 0 -40 -4.5 0 0 -1 0 1 0 1 0 0 32002.dat
 0 NOFILE
-0 FILE zhongban
-0 zhongban
-0 Name:  zhongban
+0 FILE shaft.ldr
+0 shaft
+0 Name: shaft
 0 Author:  
 0 CustomBrick
 0 NumOfBricks:  8
@@ -91,23 +91,23 @@
 1 0 -0.000120 -120.000000 0.000150 0.000001 -1.000000 0.000000 1.000000 0.000001 0.000000 0.000000 0.000000 1.000000 3708.dat
 0 STEP
 0 NOFILE
-0 FILE changgu.ldr
-0 Name: changgu
+0 FILE rib.ldr
+0 rib
+0 Name: rib
 1 0 0 0 0 0 1 0 0 0 -1 -1 0 0 32034.dat
 1 0 0 40 0 0 0 -1 -1 0 0 0 1 0 22961.dat
 1 7 0 -90 0 0 1 0 1 0 0 0 0 -1 3707.dat
 1 7 0 0 -10 0 1 0 0 0 1 1 0 0 3673.dat
 1 7 0 40 -10 0 1 0 0 0 1 1 0 0 3673.dat
 0 STEP
-0 FILE subModel-1.ldr
-0 FILE liangan2.ldr
-0 Name: liangan2
+0 FILE link.ldr
+0 link
+0 Name: link
 1 0 0 -120 0 0 -1 0 0 0 -1 1 0 0 32013.dat
 1 7 0 -60 0 0 1 0 -1 0 0 0 0 1 32073.dat
 1 0 0 0 0 0 1 0 0 0 1 1 0 0 32013.dat
 0 FILE ribs.ldr
-0 !LDCAD SCRIPT [source=ribs.lua]
-1 16 0 0 0 -0.866 -0.5 0 0.5 -0.866 0 0 0 1 liangan
-1 19 20 34.564 -15 0.866 -0.5 0 0.5 0.866 0 0 0 1 liangan2.ldr
-1 7 100 -34.641 5 -0.866 -0.5 0 0.5 -0.866 0 0 0 1 changgu.ldr
-1 16 0 138.564 -15 0.866 -0.5 0 0.5 0.866 0 0 0 1 yaogan
+1 16 0 0 0 -0.866 -0.5 0 0.5 -0.866 0 0 0 1 linkage-rib.ldr
+1 19 20 34.564 -15 0.866 -0.5 0 0.5 0.866 0 0 0 1 link.ldr
+1 7 100 -34.641 5 -0.866 -0.5 0 0.5 -0.866 0 0 0 1 rib.ldr
+1 16 0 138.564 -15 0.866 -0.5 0 0.5 0.866 0 0 0 1 stretcher.ldr
